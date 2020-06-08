@@ -1,0 +1,134 @@
+body,
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+.parallax {
+  background-image: url(https://images.unsplash.com/photo-1591310522013-3c6eabe4f982?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+li:last-child {
+  float: right;
+  margin: 10px;
+}
+.wrapper {
+  background-color: transparent;
+  height: 1000px;
+}
+
+.police-stat-img {
+  flex: 50%;
+}
+.police-stat-container {
+  background-color: #fef6e4;
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  align-items: stretch;
+}
+.police-stat-text {
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: black;
+  flex: 50%;
+  font-size: 4vw;
+}
+.women-stat-img {
+  flex: 50%;
+}
+.women-stat-container {
+  background-color: #fef6e4;
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  align-items: stretch;
+  overflow: hidden;
+}
+.women-stat-text {
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: black;
+  flex: 50%;
+  font-size: 4vw;
+}
+.drug-stat-img {
+  flex: 50%;
+}
+.drug-stat-container {
+  background-color: #fef6e4;
+  display: flex;
+  flex-direction: row;
+  height: 650px;
+  align-items: stretch;
+  overflow: hidden;
+}
+.drug-stat-text {
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: black;
+  flex: 50%;
+  font-size: 4vw;
+}
+.america-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4vw;
+  background-color: black;
+  color: red;
+}
+.america-video {
+  flex: 100%;
+}
+.america-video-container {
+  display: flex;
+  height: 650px;
+}
+#sign-up-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4vw;
+  background-color: black;
+  color: red;
+}
+.sign-up {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vw;
+}
+.sign-up-border {
+  border: 5px solid red;
+  width: 25%;
+  margin: 20px auto;
+  padding: 5px;
+}
